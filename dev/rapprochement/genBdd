@@ -1,0 +1,4 @@
+[User:|n,int|]
+[Acquereur:|n,int|]
+[Mandate:|n,int|]
+(cestz)[Rapprochement:?|dateRapprochement,datetime|,?|compteRenduLe,datetime|,|dateVisite,datetime|,|resultat,string|,|pointsPositifs,string|,|pointsNegatifs,string|,|resultatVisite,bool,,false|,|actif,bool,,false|,{user}User,{acquereur}Acquereur,{mandate}Mandate]

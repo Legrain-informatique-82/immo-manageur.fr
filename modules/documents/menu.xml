@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="documents">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>1</level>
+		<libelle>Imprimés</libelle>
+		<module>documents</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+
+    <menu principal="0" visibility="1">
+        <level>2</level>
+        <libelle>Ajouter une catégorie de documents</libelle>
+        <module>documents</module>
+        <page>addCatDocuments</page>
+        <action></action>
+        <logo>list.png</logo>
+    </menu>
+
+    <menu principal="0" visibility="1">
+        <level>2</level>
+        <libelle>catégories des documents</libelle>
+        <module>documents</module>
+        <page>listCatDocuments</page>
+        <action></action>
+        <logo>list.png</logo>
+    </menu>
+
+
+    <menu principal="0" visibility="1">
+        <level>2</level>
+        <libelle>Ajouter un document</libelle>
+        <module>documents</module>
+        <page>addDocument</page>
+        <action></action>
+        <logo>list.png</logo>
+    </menu>
+
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Liste des documents</libelle>
+		<module>documents</module>
+		<page>listDocuments</page>
+		<action></action>
+		<logo>list.png</logo>
+	</menu>
+			
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Modifier le document</libelle>
+		<module>documents</module>
+		<page>updDoc</page>
+		<action></action>
+	</menu>
+	
+	
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>docs</libelle>
+		<module>documents</module>
+		<page>genListTerrain</page>
+		<action></action>
+	</menu>
+</menus>

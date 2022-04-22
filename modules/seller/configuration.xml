@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>seller</name>
+	<modules_required>
+		<module>user</module>
+		<module>sector</module>
+        <module>export_site</module>
+        <module>openmail</module>
+	</modules_required>
+	<position>1</position>
+</config>

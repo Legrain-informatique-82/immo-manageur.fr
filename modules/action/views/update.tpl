@@ -1,0 +1,105 @@
+{include file='tpl_default/entete.tpl'}
+<form action="" method="post" role="form" class="form-horizontal">
+
+    <div class="row bg-success bannerTitle">
+        <div class="col-md-6">
+            <h1 class="h2">Modifier la tâche</h1>
+        </div>
+
+        <div class="col-md-6">
+            <p class="h4 text-right ">
+                <button type="submit" name="send" value="Valider" class="btn btn-warning" title="Mettre à jour">
+                    <i class="fa fa-save fa-2x"></i>
+                </button>
+                <a class="btn btn-default" href="{Tools::create_url($user,'action','see',$smarty.get.action)}" title="Annuler &amp; retourner à la fiche">
+                    <i class="fa fa-close fa-2x"></i>
+                </a>
+
+            </p>
+        </div>
+    </div>
+
+
+    {include file="tpl_default/error.tpl"}
+
+    {* Affichage de la liste des membres pour "from" si le niveau du membre
+    est <=2 *}
+    {if $user->getLevelMember()->getIdLevelMember() < 3}
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="from">De : </label>
+            <div class="col-sm-8">
+                <select name="from" id="from" class="form-control">
+                    {foreach from=$listUser item=i}
+                        <option {if $from eq $i->getIdUser()} selected="selected" {/if}
+                                value="{$i->getIdUser()}"> {$i->getFirstname()} {$i->getName()}</option>
+                    {/foreach}
+                </select>
+            </div>
+        </div>
+    {/if}
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="to">Pour :</label>
+        <div class="col-sm-8">
+            <select name="to" id="to"  class="form-control">
+                {foreach from=$listUser item=i}
+                    <option {if $to eq $i->getIdUser()} selected="selected" {/if}
+                            value="{$i->getIdUser()}"> {$i->getFirstname()} {$i->getName()}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="mandate">Attribué à : </label>
+        <div class="col-sm-8">
+            <select name="mandate" id="mandate"  class="form-control">
+                <option value="">Aucun mandat</option>
+                {foreach from=$listMandate item=i}
+                    <option {if $mandate eq $i->getIdMandate()} selected="selected"
+                    {/if} value="{$i->getIdMandate()}"> {$i->getNumberMandate()}
+                        {$i->getMandateType()->getName()}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="libel">Libelé :</label>
+        <div class="col-sm-8">
+            <input class="form-control" type="text" name="libel" id="libel" value="{$libel}" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="initDate">Date de début de l'action :</label>
+        <div class="col-sm-8">
+            <input type="text" name="initDate" value="{$initDate}" id="initDate" class="dateTimepicker form-control" />
+        </div>
+    </div>
+    {*
+    <p>
+        <label for="deadDate">Date de fin de l'action : <input type="text"
+            name="deadDate" value="{$deadDate}" id="deadDate"
+            class="dateTimepicker" /> </label>
+    </p>
+    *}
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="comment">Détail : </label>
+        <div class="col-sm-8">
+            <textarea name="comment" id="comment" cols="30" rows="10" class="form-control">{$comment}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-8">
+            <button type="submit" name="send" value="Valider" class="btn btn-warning">
+                <i class="fa fa-save"></i> Mettre à jour
+            </button>
+            <a class="btn btn-default" href="{Tools::create_url($user,'action','see',$smarty.get.action)}">
+                <i class="fa fa-close"></i> Annuler &amp; retourner à la fiche
+            </a>
+        </div>
+    </div>
+</form>
+
+</div>

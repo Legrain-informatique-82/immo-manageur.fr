@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>parameters</name>
+	<modules_required>
+        <module>user</module>
+        <module>mandate_features</module>
+        <module>sector</module>
+	</modules_required>
+	<position>16</position>
+</config>

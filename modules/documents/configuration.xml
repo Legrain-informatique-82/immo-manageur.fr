@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>documents</name>
+	<modules_required>
+		<module>biens</module>
+		<module>mandat</module>
+		<module>terrain</module>
+        <module>rapprochement</module>
+	</modules_required>
+	<position>15</position>
+</config>

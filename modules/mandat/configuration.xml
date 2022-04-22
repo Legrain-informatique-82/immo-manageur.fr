@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>mandat</name>
+	<modules_required>
+		<module>biens</module>
+		<module>dpe</module>
+	</modules_required>
+	<position>2</position>
+</config>

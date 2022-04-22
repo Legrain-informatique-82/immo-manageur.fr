@@ -1,0 +1,2 @@
+(cestz)[Critere_mandate:|nom,string|,|champsCorrespondant,string|,|type,string|,|nameTable,string|]
+(cestz)[Critere_acquereur:|nom,string|,|champsCorrespondant,string|,|type,string|,|nameTable,string|]

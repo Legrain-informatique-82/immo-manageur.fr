@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>export_site</name>
+	<install>0</install>
+	<modules_required>
+		<module>export</module>
+	</modules_required>
+	<position>14</position>
+</config>

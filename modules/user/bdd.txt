@@ -1,0 +1,6 @@
+(cestz)[LevelMember:|name,string/512|]
+(cestz)[Agency:|name,string/512|]
+(cestz)[User:|identifiant,string/255|,|password,string/130|,|name,string/255|,|firstname,string/255|,|email,string/512|,|registration_date,datetime|,{levelMember}LevelMember,{agency}Agency]
+(cestz)[UserPhoneNumber:|name,string/512|,|number:string/20|,{User}user]
+(cestz)[Log:|dateLog,datetime|,|pluginName,string/255|,|log,string/1000|,{user}User]
+(cestz)[HistoricConnection:|dateConnection,datetime|,{user}User]

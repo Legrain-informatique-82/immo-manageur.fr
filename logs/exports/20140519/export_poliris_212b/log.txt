@@ -1,0 +1,8 @@
+2014-05-19 14:18:34 - Archive créée 
+2014-05-19 14:18:34 - Taille de l'archive ......... 1653
+2014-05-19 14:18:34 - Connexion ftp 
+2014-05-19 14:18:34 - Début du transfert 
+2014-05-19 14:18:34 - Fin du transfert ftp 
+2014-05-19 14:18:34 - Taille des éléments présents sur le ftp 
+2014-05-19 14:18:34 - 212b.zip ..... 1653
+2014-05-19 14:18:35 - fin de connexion ftp 

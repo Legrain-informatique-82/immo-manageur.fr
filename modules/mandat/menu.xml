@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="mandat">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Habitats</libelle>
+		<module>mandat</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajout d'un mandat</libelle>
+		<module>mandat</module>
+		<page>preadd</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Ajouter</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des mandats</libelle>
+		<module>mandat</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Liste</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>voir les logs pour ce module</libelle>
+		<module>mandat</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+
+
+
+
+
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des mandats annulés</libelle>
+		<module>mandat</module>
+		<page>list_annul</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des mandats compromis</libelle>
+		<module>mandat</module>
+		<page>list_comp</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des mandats vendu agence</libelle>
+		<module>mandat</module>
+		<page>list_vendu_a</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des mandats vendu tiers</libelle>
+		<module>mandat</module>
+		<page>list_vendu_t</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer l'affectation mandat/vendeur</libelle>
+		<module>mandat</module>
+		<page>delete_affectation_seller</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir le mandat</libelle>
+		<module>mandat</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>add</libelle>
+		<module>mandat</module>
+		<page>add</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>add_new_seller_for_mandate</libelle>
+		<module>mandat</module>
+		<page>add_new_seller_for_mandate</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Maj des infos complementaires</libelle>
+		<module>mandat</module>
+		<page>updateComplementaryInformation</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Maj des infos generales</libelle>
+		<module>mandat</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>annuler le mandat</libelle>
+		<module>mandat</module>
+		<page>cancel</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Reaffecter</libelle>
+		<module>mandat</module>
+		<page>renew</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Finaliser la vente</libelle>
+		<module>mandat</module>
+		<page>endSell</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Duppliquer le mandat</libelle>
+		<module>mandat</module>
+		<page>duplicate</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier le dpe</libelle>
+		<module>mandat</module>
+		<page>updateDpe</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier la description</libelle>
+		<module>mandat</module>
+		<page>updateDesc</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les infos générales</libelle>
+		<module>mandat</module>
+		<page>updateGen</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les infos pubs</libelle>
+		<module>mandat</module>
+		<page>updatePub</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les descriptions</libelle>
+		<module>mandat</module>
+		<page>updateDescription</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les conmmentaires</libelle>
+		<module>mandat</module>
+		<page>updateCom</page>
+		<action></action>
+	</menu>
+	
+	<!-- Modules -->
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Mod impr fiche vierge</libelle>
+		<module>mandat</module>
+		<page>imprFicheVierge</page>
+		<action></action>
+	</menu>
+</menus>

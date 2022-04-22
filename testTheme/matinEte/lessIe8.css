@@ -1,0 +1,18 @@
+#menuPrincipal {
+	margin-top: 0;
+}
+
+#menuPrincipal li a {
+	display: block;
+	float: left;
+	padding: 13px 1px 13px 1px;
+}
+
+#menuPrincipal li {
+	margin-top: 0;
+	display: inline;
+}
+
+.menuHorizontal li {
+	float: left;
+}

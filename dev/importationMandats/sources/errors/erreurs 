@@ -1,0 +1,10 @@
+causes;N° de mandat;Nom du vendeur;Adresse du vendeur;CP vendeur;Ville VEndeur;Adresse du bien;Cp bien;Ville bien;Demarcheur;Prix du mandat;Net vendeur;Id PUB;Nature mandat;Type de transaction;Début mandat;Type de bien;Date visite
+- Numéro de mandat manquant; ; BAUDONNET GILBERT; MONT ANTOINE;82700; CORDES TOLOSANNES; MONT ANTOINE;82700; CORDES TOLOSANNES; Marine RAFFY;108000;100000; SIMPLE; Vente de bien; 06/05/2011; MAISON; 
+- Numéro de mandat manquant; ; BERNARD CLAUDINE; LD ROUQUAT;82190; TOUFAILLES; AU VILLAGE;82190; TOUFAILLES; Véronique Rispe;     €;    €; ; Vente de bien; 26/07/2011; MAISON; 
+- Numéro de mandat manquant; ; CHAMAN ADNANE; ;82290; MONTBETON; vilette;82100; CASTELSARRASIN; David COUZY;189000;175000; SIMPLE; Vente de bien; 30/06/2011; MAISON; 
+- Numéro de mandat manquant; ; CLOUP ; impasse des hirondelles;82290; LA VILLE DIEU DU TEMPLE; impasse des hirondelles;82290; LA VILLE DIEU DU TEMPLE; David COUZY;     €;    €; SIMPLE; Vente de bien; 09/08/2011; MAISON; 
+- Numéro de mandat manquant; ; LANGARITA NICOLAS; LAUZELET;82120; LAVIT; FOUNEILLO;82200; MOISSAC; Marie-line DUPRE;149000;140000; SIMPLE; Vente de bien; 29/04/2011; MAISON; 06/05/2011
+- Numéro de mandat manquant; ; ROBERT ; 241, impase borde neuve;82290; LA VILLE DIEU DU TEMPLE; 241, impase borde neuve;82290; LA VILLE DIEU DU TEMPLE; David COUZY;49000;45000; SIMPLE; Vente de bien; 25/08/2011; TERRAIN; 
+- Numéro de mandat manquant; ; ROBERT FREDERIQUE ; 241 impase;82290; LA VILLE DIEU DU TEMPLE; 241 impase;82290; LA VILLE DIEU DU TEMPLE; David COUZY;49000;45000; SIMPLE; Vente de bien; 25/08/2011; TERRAIN; 
+- adresse du bien manquante;977; BERNARD JEAN JACQUES; 7 RUE DE GARENNE;94360; BRY SUR MARNE; ;82100;  secteur castelsarrasin; David COUZY;192000;180000; SIMPLE; Vente de bien; 05/05/2011; MAISON; 
+- type de bien manquant- Numéro de mandat manquant- adresse du bien manquante- ville du bien manquante- Date initiale vide- Type de transaction vide- Le champ utilisateur est vide- ville du vendeur manquante;;;;;;;;;;;;;;;;

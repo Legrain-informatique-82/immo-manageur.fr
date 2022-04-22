@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="rechercheMulti">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Recherche multicritere</libelle>
+		<short_libel>Recherche</short_libel>
+		<module>rechercheMulti</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Recherche de biens</libelle>
+		<module>rechercheMulti</module>
+		<page>searchMandate</page>
+		<action></action>
+		<logo>mandat.png</logo>
+		<short_libel>Mandat</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Recherche d'acquereurs</libelle>
+		<module>rechercheMulti</module>
+		<page>searchAcq</page>
+		<short_libel>Acquéreur</short_libel>
+		<action></action>
+		<logo>acq.png</logo>
+	</menu>
+</menus>

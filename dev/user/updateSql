@@ -1,0 +1,30 @@
+ALTER TABLE `Agency` ADD `tel1` VARCHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `tel2` VARCHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `tel3` VARCHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `email` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `address` VARCHAR( 400 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `city` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `zipCode` VARCHAR( 10 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+ADD `contact` VARCHAR( 300 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+
+
+UPDATE `extranet_escalimmo`.`Agency` SET `tel1` = '05.63.29.23.18 ',
+`address` = 'Place de la halle',
+`city` = 'Auvillar',
+`zipCode` = '82340' WHERE `Agency`.`idAgency` =1;
+
+UPDATE `extranet_escalimmo`.`Agency` SET `tel1` = '05.63.32.44.93 ',
+`email` = 'contact-moissac@escalimmo.com',
+`address` = '5 Avenue chasselas',
+`city` = 'Moissac',
+`zipCode` = '82200' WHERE `Agency`.`idAgency` =2;
+
+UPDATE `extranet_escalimmo`.`Agency` SET `tel1` = '05.63.31.89.13 ',
+`address` = '11-13 Grand rue',
+`city` = 'LA VILLE DIEU DU TEMPLE',
+`zipCode` = '82290' WHERE `Agency`.`idAgency` =3;
+
+UPDATE `extranet_escalimmo`.`Agency` SET `tel1` = '05.63.91.46.64',
+`address` = '230 avenue de Montauban ',
+`city` = 'Montauban',
+`zipCode` = '82000' WHERE `Agency`.`idAgency` =4;

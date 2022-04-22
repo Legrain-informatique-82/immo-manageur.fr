@@ -1,0 +1,15 @@
+[TransactionType:|name,string|]
+[MandateType:|name,string|]
+(cestz)[siteExportFourchettePrix:|name,string|,|valMin,int|,|valMax,int|,{transactionType}TransactionType,{mandateType}MandateType]
+(cestz)[siteExportFourchetteTaille:|name,string|,|valMin,int|,|valMax,int|,{transactionType}TransactionType,{mandateType}MandateType]
+
+[SiteExportTheme:|name,string|]
+(cestz)[SiteExport:|robots,bool,,false|,|nbAnnoncesParPage,int|,|txtIndex,string|,|emailContact,string|,|nbNouveauteParAgence,int|,|nomSite,string|,|titreAccueil,string|,|metaDescriptionAccueil,string|,|header,string|,|logo,string|,{theme}SiteExportTheme]
+
+
+(cestz)[SiteExportVariable:|name,string|,|label,string|,|exportName,string|,|value,string|,|type,string|]
+
+
+
+(cestz)[CmsMenu:|name,string/500|, ?{cmsMenu}CmsMenu]
+(cestz)[Cms:|publicName,string|,|privateName,string|,|title,string|,|url,string|,|description,string|,|content,string|,|position,int|,{cmsMenu}CmsMenu]

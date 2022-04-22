@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="user">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Utilisateurs</libelle>
+		<module>user</module>
+		<page></page>
+		<action></action>
+	</menu>
+	<!-- actions secondaires -->
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Ajouter un utilisateur</libelle>
+		<module>user</module>
+		<page>add</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Visualiser ma fiche</libelle>
+		<module>user</module>
+		<page>see</page>
+		<action>{myId}</action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des utilisateurs</libelle>
+		<module>user</module>
+		<page>list</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>user</module>
+		<page>log</page>
+		<action></action>
+	</menu>
+	<!-- action sans menu visible -->
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Modifier un utilisateur</libelle>
+		<module>user</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Supprimer un utilisateur</libelle>
+		<module>user</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+
+
+
+
+
+</menus>

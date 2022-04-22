@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>terrain</name>
+	<modules_required>
+		<module>biens</module>
+	</modules_required>
+	<position>3</position>
+</config>

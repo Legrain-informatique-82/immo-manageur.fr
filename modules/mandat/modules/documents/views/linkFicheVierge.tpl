@@ -1,0 +1,1 @@
+<a class="btn btn-default" href="{Tools::create_url($user,'mandat','imprFicheVierge')}" target="_blank"><i class="fa fa-print"></i> Imprimer une fiche vierge</a>

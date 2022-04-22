@@ -1,0 +1,17 @@
+[City:|n,int|]
+[TitreAcquereur:|n,int|]
+[TransactionType:|n,int|]
+[MandateStyle:|n,int|]
+[Sector:|n,int|]
+
+
+[TitreAcquereur:|name,string|]
+[Acquereur:|name,string/255|,|firstname,string/255|,|address,string|,|phone,string|,|mobilPhone,string|,
+|workPhone,string|,|fax,string|,|email,string|,|numberUsed,int|,|actif,bool,,false|,|priceMin,int|,|priceMax,int|,|surfaceTerrainMin,int|,|surfaceTerrainMax,int|,|surfaceHabitableMin,int|,|surfaceHabitableMax,int|
+{villeAcquereur}City,{titreAcquereur}TitreAcquereur,{transactionType}TransactionType,{mandateStyle}MandateStyle,?{rechercheCity}City,?{rechercheSector}Sector
+]
+
+[Acquereur:|name,string|]
+[AcquereurAssocie:|name,string|]
+[SituationAcquereur:|name,string|,|ifEventDate,bool,,false|,|ifEventLocation,bool,,false|]
+[RelSituaTionAcq: ?{acquereur}Acquereur, ?{acquereurAssocie}AcquereurAssocie,{situationAcquereur}SituationAcquereur,?|eventDate,datetime|,?|eventLocation,string| ]

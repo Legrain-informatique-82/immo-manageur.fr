@@ -1,0 +1,51 @@
+causes;nom;prenom;adresse;cp;ville;tel perso;tel pro; portable;autre;email;transaction;type;prix de; prix à;commercial;date visite;visite
+- ville du bien manquante;  ARBIA david; david; ; ; ; ; ; 06.61.26.16.75; ; ;; MAISON;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  ARINAL Caroline; Caroline; ; ; ; ; ; 06.15.12.00.61; ; ;; MAISON;130000;175000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  AUGADE ; ; ; ; ; ; ; 06.19.64.05.61; ; AUGADE.lionnel.karine@hotmail.fr;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  AVARELLO ; ; ; ; ; ; ; ; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  BONDON Cécile; Cécile; ; ; ; ; ; 06.50.93.74.16; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  CHOURFI Driss; Driss; ; ; ; ; ; 06.45.43.60.02; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  DEJELLAL Patrick; Patrick; ; ; ; 05.65.31.90.47; ; ; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  DELALANDE ; ; ; ; ; 05.63.94.33.30; ; 06.27.36.61.84; ; anouk81@hotmail.fr;; MAISON;  ;100000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  DION ; ; ; ; ; 05.63.32.03.78; ; ; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  DORSO ; ; ; ; ; ; ; ; ; ;; MAISON;200000;270000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  DOURY JACQUES; JACQUES; ; ; ; ; ; ; ; jdoury@wanadoo.fr;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  DUBUS ANTOINE; ANTOINE; ; ; ; ; ; 06.19.90.21.05; ; ;; ;  ;600; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  EZQUERRA ; ; ; ; ; ; ; 06.77.18.48.16; ; ;; MAISON;  ;115000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  FERULLO Pauline; Pauline; ; ; ; ; ; 06.80.00.76.36; ; pauline_ferullo@yahoo.fr;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  FISMAN agnes; agnes; ; ; ; ; ; 06.15.03.91.58; ; ;; MAISON;145000;180000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  GADANHO FERNANDO; FERNANDO; ; ; ; ; ; 06.29.91.77.37; ; ;; ;  ;350; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  GARCIA chantal; chantal; ; ; ; 06.79.78.03.47; ; ; ; ;; APPARTEMENT;300;500; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  GAUDIZAON ; ; ; ; ; ; ; 06.88.03.58.49; 06.75.68.08.04; ;; MAISON;600;700; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  GOMEZ MAGALIE; MAGALIE; ; ; ; ; ; 06.68.43.99.19; ; ;; APPARTEMENT;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant;  HOEDAERT serge; serge; ;31600; MURET; ; ; 06.42.26.33.60; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  JAAOUANI ; ; ; ; ; ; ; 06.61.72.04.68; ; ;; MAISON;15000;190000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  KHROF ; ; ; ; ; 05.63.64.95.30; ; ; ; ;; TERRAIN;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  LABAJO ; ; ; ; ; 05.63.66.73.71; ; 06.73.94.40.42; ; famille.labajo@wanadoo.fr;; TERRAIN;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  LABRO J.Claude; J.Claude; ; ; ; ; ; 06.14.88.35.46; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  LAGARDERE Serge; Serge; ; ; ; ; ; 06.43.28.43.49; ; ;; MAISON;500;900; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  LALA ; ; ; ; ; 05.63.04.13.05; ; ; ; ;; MAISON;  ;88000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  LAMNAOUAR ABDELSLAM; ABDELSLAM; ; ; ; ; ; 06.27.08.09.78; ; ;; MAISON;100000;110000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  LAOU-LAOU Hamid; Hamid; ; ; ; ; ; 06.10.98.73.46; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  LAROQUE Pierre; Pierre; ; ; ; ; ; 06.70.63.44.56; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  LE CROSNIER christain; christain; inconnue; ; ; ; ; ; ; ;; MAISON;70000;150000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MANQUEZ Corine; Corine; ; ; ; ; ; 06.99.44.11.88; ; ;; APPARTEMENT;350;390; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MARCHIOL ; ; ; ; ; ; ; 06.36.25.48.97; ; ;; APPARTEMENT;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  MARMAIN ; ; ; ; ; ; ; 06.50.78.95.59; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MARTIN Lucile; Lucile; ; ; ; 02.32.90.03.07; ; ; ; martinlucile@orange.fr;; MAISON;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MATTEI Sandrine; Sandrine; ; ; ; ; ; 06.81.94.24.81; ; ;; MAISON;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MONEZ SYLVIE; SYLVIE; ; ; ; ; ; 06.82.31.02.77; ; ;; MAISON;100000;150000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MOUILLERAC Véronique; Véronique; ; ; ; ; ; 06 16 96 73 14; ; ;; MAISON;500;600; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  MOUISSET Elodie; Elodie; ; ; ; ; ; ; ; ;; ;520;560; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  MURAD ; ; ; ; ; ; ; ; ; ;; TERRAIN;55000;67000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  NOUAU CEDRIC; CEDRIC; ; ; ; 06.60.37.26.64; ; 06.23.31.53.63; ; ;; MAISON;160000;173000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  PAULLIN JEAN; JEAN; ; ; ; ; ; 06.69.56.16.17; ; paullin1970@yahoo.fr;; ;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  PUIFFE ; ; ; ; ; ; ; 06.15.36.71.56; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  REQUIN ; ; ; ; ; ; ; 06.34.24.75.41; ; ;; MAISON;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  REUTOER brigitte; brigitte; ; ; ; ; ; 06.68.01.19.54; ; ;; APPARTEMENT;85000;120000; Daniel CALVI; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  SAVARY Pierre; Pierre; ; ; ; 05.63.39.74.59; ; ; ; ;; ;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  SIMON Aurore; Aurore; ; ; ; ; ; 06.22.21.70.08; ; ;; APPARTEMENT;  ; ; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  TCHARNY jacques; jacques; ; ; ; ; ; 06.10.45.51.77; ; tcharnyjacques@yahoo.fr;; APPARTEMENT;125000;150000; Daniel CALVI; ; ListeVisite
+- ville du bien manquante;  TURROQUES ISABELLE; ISABELLE; ; ; ; ; ; 06.89.80.88.29; ; ;; COMMERCE;  ; ; Daniel CALVI; ; ListeVisite
+- type de bien manquant- Le champ utilisateur est vide- ville du bien manquante;;zzzz;zz;;;zz;zz;zz;zz;zz;;;;;;;
+- type de bien manquant- Le champ utilisateur est vide- ville du bien manquante;;;;;;;;;;;;;;;;;

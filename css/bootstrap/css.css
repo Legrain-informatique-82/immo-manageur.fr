@@ -1,0 +1,160 @@
+body{
+    /*margin-top: 250px;*//* Sur tablettes horizontales*/
+    margin-top: 150px;
+}
+body#notLog{
+
+    margin-top: 0px;
+   /* background: url('images/bg_login.jpg') no-repeat;*/
+}
+body#notLog div#logo-non-log{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+body#notLog div#logo-non-log .container-902{
+    background: url('images/bg-login-top.png') no-repeat top right;
+}
+body#notLog div#logo-non-log img{
+    margin:20px 0px;
+}
+body#notLog #bloc-connexion {
+    background: url('images/bg_login.jpg') no-repeat right -140px;
+}
+body#notLog #bloc-connexion form{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top:160px;
+    margin-bottom:170px;
+}
+body#notLog #bloc-connexion form .contform{
+    padding:15px 0 30px 0;
+}
+.container-902 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container-902 {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container-902 {
+        width: 902px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-902 {
+        width: 902px;
+    }
+}
+#cont-login{
+
+
+}
+#topPurple{
+    /*background: #242155 url('images/banner.jpg') repeat-x left bottom;*/
+    background-image: url('images/banner.jpg'), url("images/degrade_violet.png");
+    background-position: left bottom, center top;
+    background-repeat: repeat-x,repeat-y;
+    background-color: #242155;
+    color:#fff;
+
+}
+#topPurple a{
+    color:#fff;
+}
+#topPurple a#logoApp{
+    display: inline-block;
+    padding-top:13px;
+    padding-bottom:20px;
+}
+#topPurple #blocDisconnect{
+    display: inline-block;
+    padding-top:15px;
+    font-weight: bolder;
+
+}
+
+.bannerTitle{
+    margin-bottom: 15px;
+}
+
+
+#headerFicheMandate .col-md-4 .panel{
+    min-height: 270px;
+
+
+}
+
+#ficheMandateFirstLine .col-md-3 .panel{
+    min-height: 253px;
+
+
+}
+
+
+.btn-link-button-split {
+    font-weight: normal;
+    color: #000;
+    cursor: pointer;
+    border-radius: 0;
+}
+.btn-link-button-split,
+.btn-link-button-split:active,
+.btn-link-button-split[disabled],
+fieldset[disabled] .btn-link-button-split {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-link-button-split,
+.btn-link-button-split:hover,
+.btn-link-button-split:focus,
+.btn-link-button-split:active {
+    border-color: transparent;
+}
+.btn-link-button-split:hover,
+.btn-link-button-split:focus {
+    background-color: #E8E8E8;
+    background-image: -webkit-linear-gradient(top,#F5F5F5 0,#E8E8E8 100%);
+    background-image: -o-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#F5F5F5),to(#E8E8E8));
+    background-image: linear-gradient(to bottom,#F5F5F5 0,#E8E8E8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+    background-repeat: repeat-x;
+}
+.btn-link-button-split[disabled]:hover,
+fieldset[disabled] .btn-link-button-split:hover,
+.btn-link-button-split[disabled]:focus,
+fieldset[disabled] .btn-link-button-split:focus {
+    color: #777;
+    text-decoration: none;
+}
+
+.gras{
+    font-weight: bolder;
+}
+.red{
+    color:#ff0000;
+}
+#miniature{
+    min-height:200px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 15px;
+}
+
+td.details-control {
+    background: url('../../js/datatable/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../../js/datatable/details_close.png') no-repeat center center;
+}
+
+.border-bottom-dashed{
+    border-bottom: 1px dashed #000;
+}
+

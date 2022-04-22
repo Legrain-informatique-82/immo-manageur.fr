@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="parameters">
+    <!-- Menu principal -->
+    <menu principal="1" visibility="1">
+        <level>1</level>
+        <libelle>Parametres</libelle>
+        <module>parameters</module>
+        <page/>
+        <action/>
+        <logo>logo.png</logo>
+    </menu>
+    <!-- actions secondaires -->
+    <menu principal="0" visibility="1">
+        <level>1</level>
+        <libelle>Parametres généraux</libelle>
+        <module>parameters</module>
+        <page/>
+        <action/>
+        <logo>logo.png</logo>
+    </menu>
+
+    <menu principal="0" visibility="1">
+        <level>1</level>
+        <libelle>Parametres mandats &amp; terrains</libelle>
+        <module>parameters</module>
+        <page>listParametersMandate</page>
+        <action/>
+        <logo>logo.png</logo>
+    </menu>
+
+    <menu principal="0" visibility="1">
+        <level>1</level>
+        <libelle>Parametres géographiques</libelle>
+        <module>parameters</module>
+        <page>listParametersGeographic</page>
+        <action/>
+        <logo>logo.png</logo>
+    </menu>
+
+
+
+    <!-- Listes -->
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>Liste des secteurs</libelle>
+        <module>parameters</module>
+        <page>list_sectors</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>Liste des villes</libelle>
+        <module>parameters</module>
+        <page>list_cities</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>Liste bornages terrains</libelle>
+        <module>parameters</module>
+        <page>list_bornage_terrain</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des orientations</libelle>
+        <module>parameters</module>
+        <page>list_orientation</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des pentes</libelle>
+        <module>parameters</module>
+        <page>list_slope</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de zonage PLU</libelle>
+        <module>parameters</module>
+        <page>list_plu</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de zonage RNU</libelle>
+        <module>parameters</module>
+        <page>list_rnu</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des géometres</libelle>
+        <module>parameters</module>
+        <page>list_geometer</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des correspondants eau</libelle>
+        <module>parameters</module>
+        <page>list_water_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des correspondants électicité</libelle>
+        <module>parameters</module>
+        <page>list_electric_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des correspondants gaz</libelle>
+        <module>parameters</module>
+        <page>list_gaz_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des correspondants assainissement</libelle>
+        <module>parameters</module>
+        <page>list_sanitation_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options COS</libelle>
+        <module>parameters</module>
+        <page>list_cos</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options d'isolation</libelle>
+        <module>parameters</module>
+        <page>list_insulation</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de toiture</libelle>
+        <module>parameters</module>
+        <page>list_roof</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de chauffage</libelle>
+        <module>parameters</module>
+        <page>list_heating</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options des parties communes</libelle>
+        <module>parameters</module>
+        <page>list_commonOwnership</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options du type de construction</libelle>
+        <module>parameters</module>
+        <page>list_constructionType</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options du style</libelle>
+        <module>parameters</module>
+        <page>list_style</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de nouveauté</libelle>
+        <module>parameters</module>
+        <page>list_news</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de condition</libelle>
+        <module>parameters</module>
+        <page>list_condition</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Liste des options de nature</libelle>
+        <module>parameters</module>
+        <page>list_nature</page>
+        <action/>
+    </menu>
+
+
+    <!-- UPD -->
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>modifier une ville</libelle>
+        <module>parameters</module>
+        <page>upd_city</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>modifier un secteur</libelle>
+        <module>parameters</module>
+        <page>upd_sector</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un bornage terrain</libelle>
+        <module>parameters</module>
+        <page>upd_bornage_terrain</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une orientation</libelle>
+        <module>parameters</module>
+        <page>upd_orientation</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une pente</libelle>
+        <module>parameters</module>
+        <page>upd_slope</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification option zonage PLU</libelle>
+        <module>parameters</module>
+        <page>upd_plu</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification option zonage RNU</libelle>
+        <module>parameters</module>
+        <page>upd_rnu</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un géometre</libelle>
+        <module>parameters</module>
+        <page>upd_geometer</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un correspondant eau</libelle>
+        <module>parameters</module>
+        <page>upd_water_corresponding</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un correspondant électicité</libelle>
+        <module>parameters</module>
+        <page>upd_electric_corresponding</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un correspondant gaz</libelle>
+        <module>parameters</module>
+        <page>upd_gaz_corresponding</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'un correspondant assainissement</libelle>
+        <module>parameters</module>
+        <page>upd_sanitation_corresponding</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option COS</libelle>
+        <module>parameters</module>
+        <page>upd_cos</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option d'isolation</libelle>
+        <module>parameters</module>
+        <page>upd_insulation</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option de toiture</libelle>
+        <module>parameters</module>
+        <page>upd_roof</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option de chauffage</libelle>
+        <module>parameters</module>
+        <page>upd_heating</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option des parties communes</libelle>
+        <module>parameters</module>
+        <page>upd_commonOwnership</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option du type de construction</libelle>
+        <module>parameters</module>
+        <page>upd_constructionType</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option du style</libelle>
+        <module>parameters</module>
+        <page>upd_style</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option de nouveauté</libelle>
+        <module>parameters</module>
+        <page>upd_news</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option de condition</libelle>
+        <module>parameters</module>
+        <page>upd_condition</page>
+        <action></action>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>modification d'une option de nature</libelle>
+        <module>parameters</module>
+        <page>upd_nature</page>
+        <action/>
+    </menu>
+
+
+    <!-- ADD -->
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>ajouter un secteur</libelle>
+        <module>parameters</module>
+        <page>add_sector</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>1</level>
+        <libelle>ajouter une ville</libelle>
+        <module>parameters</module>
+        <page>add_city</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un bornage terrain</libelle>
+        <module>parameters</module>
+        <page>add_bornage_terrain</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une orientation</libelle>
+        <module>parameters</module>
+        <page>add_orientation</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une pente</libelle>
+        <module>parameters</module>
+        <page>add_slope</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option zonage PLU</libelle>
+        <module>parameters</module>
+        <page>add_plu</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option zonage RNU</libelle>
+        <module>parameters</module>
+        <page>add_rnu</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un géometre</libelle>
+        <module>parameters</module>
+        <page>add_geometer</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un correspondant eau</libelle>
+        <module>parameters</module>
+        <page>add_water_corresponding</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un correspondant électicité</libelle>
+        <module>parameters</module>
+        <page>add_electric_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un correspondant gaz</libelle>
+        <module>parameters</module>
+        <page>add_gaz_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter un correspondant assainissement</libelle>
+        <module>parameters</module>
+        <page>add_sanitation_corresponding</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option COS</libelle>
+        <module>parameters</module>
+        <page>add_cos</page>
+        <action/>
+        <logo/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option d'isolation</libelle>
+        <module>parameters</module>
+        <page>add_insulation</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option de toiture</libelle>
+        <module>parameters</module>
+        <page>add_roof</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option de chauffage</libelle>
+        <module>parameters</module>
+        <page>add_heating</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option des parties communes</libelle>
+        <module>parameters</module>
+        <page>add_commonOwnership</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option du type de construction</libelle>
+        <module>parameters</module>
+        <page>add_constructionType</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option du style</libelle>
+        <module>parameters</module>
+        <page>add_style</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option de nouveauté</libelle>
+        <module>parameters</module>
+        <page>add_news</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>2</level>
+        <libelle>Ajouter une option de condition</libelle>
+        <module>parameters</module>
+        <page>add_condition</page>
+        <action/>
+    </menu>
+    <menu principal="0" visibility="0">
+    <level>2</level>
+    <libelle>Ajouter une option de nature</libelle>
+    <module>parameters</module>
+    <page>add_nature</page>
+    <action/>
+    </menu>
+</menus>

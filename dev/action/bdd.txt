@@ -1,0 +1,6 @@
+[User:|name,string|]
+[Mandate:|name,string|]
+(cestz)[Action:|libel,string|,|initDate,date|,|deadDate,date|,|comment,string/1000|,{from}User,?|doDate,date|,?{mandate}Mandate]
+
+(cestz)[LibelAction:|libel,string|]
+

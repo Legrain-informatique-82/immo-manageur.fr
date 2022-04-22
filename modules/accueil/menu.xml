@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="accueil">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="0">
+		<level>3</level>
+		<libelle>Accueil</libelle>
+		<module>accueil</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+</menus>

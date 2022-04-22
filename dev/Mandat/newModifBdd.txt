@@ -1,0 +1,9 @@
+ALTER TABLE Mandate
+add rental float(11,3) DEFAULT NULL,
+add  numbergarage varchar(255) DEFAULT NULL,
+add numbercellar varchar(255) DEFAULT NULL,
+add numberparking varchar(255) DEFAULT NULL,
+add numberattic varchar(255) DEFAULT NULL,
+add pricegarage float(11,3) DEFAULT NULL,
+add pricecellar float(11,3) DEFAULT NULL,
+add profitability varchar(255) DEFAULT NULL

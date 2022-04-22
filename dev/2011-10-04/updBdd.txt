@@ -1,0 +1,18 @@
+ALTER TABLE  `Mandate` ADD  `situationTerrain` INT NULL
+
+
+
+
+CREATE TABLE MandateAdjoining (
+	idMandateAdjoining  INT AUTO_INCREMENT NOT NULL,
+	name                VARCHAR(250) NOT NULL,
+	PRIMARY KEY (idMandateAdjoining))
+ENGINE = MYISAM CHARACTER SET UTF8;
+
+INSERT INTO `MandateAdjoining` (`idMandateAdjoining`, `name`) VALUES
+(1, 'IndÃ©pendant'),
+(2, 'Un cÃ´tÃ©'),
+(3, 'Des deux cÃ´tÃ©s');
+
+// mets ts les mandats en mitoyenneté : indépendante
+UPDATE Mandate SET `MandateAdjoining_idMandateAdjoining`=1 WHERE `mandateType_idMandateType`!=1

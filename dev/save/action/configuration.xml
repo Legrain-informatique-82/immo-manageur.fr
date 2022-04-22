@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>action</name>
+	<modules_required>
+		<module>user</module>
+		<module>biens</module>
+	</modules_required>
+	<position>7</position>
+</config>

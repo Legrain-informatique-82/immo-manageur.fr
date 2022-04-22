@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="export">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>2</level>
+		<libelle>Passerelles</libelle>
+		<module>export</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+<short_libel>Passerelles</short_libel>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Liste des passerelles</libelle>
+		<module>export</module>
+		<page>listPasserelle</page>
+		<action></action>
+				<logo>list.png</logo>
+		<short_libel>Passerelles</short_libel>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>del</libelle>
+		<module>export</module>
+		<page>deletePasserelle</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>upd</libelle>
+		<module>export</module>
+		<page>updatePasserelle</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Mandats et exports</libelle>
+		<module>export</module>
+		<page>list</page>
+		<action></action>
+	</menu>
+		<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Mandats et exports</libelle>
+		<module>export</module>
+		<page>preList</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Exports</short_libel>
+	</menu>
+    <menu principal="0" visibility="1">
+        <level>2</level>
+        <libelle>Passerelle facebook</libelle>
+        <module>export</module>
+        <page>gest_fb</page>
+        <action></action>
+        <logo>list.png</logo>
+        <short_libel>exports facebook</short_libel>
+    </menu>
+
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>export</module>
+		<page>log</page>
+		<action></action>
+				<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+</menus>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="documents">
+	<!-- Menu principal -->
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>docs</libelle>
+		<module>documents</module>
+		<page></page>
+		<action></action>
+	</menu>
+
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>docs</libelle>
+		<module>documents</module>
+		<page>genListTerrain</page>
+		<action></action>
+	</menu>
+</menus>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="dpe">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>1</level>
+		<libelle>Gestion du DPE</libelle>
+		<module>dpe</module>
+		<page></page>
+		<action></action>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Tableau dpe</libelle>
+		<module>dpe</module>
+		<page>list</page>
+		<action></action>
+	</menu>
+
+</menus>

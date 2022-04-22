@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="terrain">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Terrains</libelle>
+		<module>terrain</module>
+		<page></page>
+		<action></action>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajout d'un terrain</libelle>
+		<module>terrain</module>
+		<page>preadd</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des terrains</libelle>
+		<module>terrain</module>
+		<page>list</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>voir les logs pour ce module</libelle>
+		<module>terrain</module>
+		<page>log</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des terrains annulés</libelle>
+		<module>terrain</module>
+		<page>list_annul</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des terrains compromis</libelle>
+		<module>terrain</module>
+		<page>list_comp</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des terrains vendu agence</libelle>
+		<module>terrain</module>
+		<page>list_vendu_a</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Liste des terrains vendu tiers</libelle>
+		<module>terrain</module>
+		<page>list_vendu_t</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer l'affectation mandat/vendeur</libelle>
+		<module>terrain</module>
+		<page>delete_affectation_seller</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir le terrain</libelle>
+		<module>terrain</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>add</libelle>
+		<module>terrain</module>
+		<page>add</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>add_new_seller_for_mandate</libelle>
+		<module>terrain</module>
+		<page>add_new_seller_for_mandate</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Maj des infos complementaires</libelle>
+		<module>terrain</module>
+		<page>updateComplementaryInformation</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Maj des infos generales</libelle>
+		<module>terrain</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>annuler le mandat</libelle>
+		<module>terrain</module>
+		<page>cancel</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Reaffecter</libelle>
+		<module>terrain</module>
+		<page>renew</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Finaliser la vente</libelle>
+		<module>terrain</module>
+		<page>endSell</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Duppliquer le mandat</libelle>
+		<module>terrain</module>
+		<page>duplicate</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier le dpe</libelle>
+		<module>terrain</module>
+		<page>updateDesc</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les infos générales</libelle>
+		<module>terrain</module>
+		<page>updateGen</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les infos pubs</libelle>
+		<module>terrain</module>
+		<page>updatePub</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier les com</libelle>
+		<module>terrain</module>
+		<page>updateCom</page>
+		<action></action>
+	</menu>
+</menus>

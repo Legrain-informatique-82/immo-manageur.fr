@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="openmail">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Open Mail</libelle>
+		<module>openmail</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- actions secondaires -->
+    <menu principal="0" visibility="1">
+        <level>1</level>
+        <libelle>Accueil</libelle>
+        <module>openmail</module>
+        <page></page>
+        <action></action>
+        <logo>logo.png</logo>
+    </menu>
+    <menu principal="0" visibility="1">
+        <level>3</level>
+        <libelle>Envoyer un sms</libelle>
+        <module>openmail</module>
+        <page>sendSms</page>
+        <action></action>
+        <logo>logo.png</logo>
+    </menu>
+    <menu principal="0" visibility="1">
+        <level>3</level>
+        <libelle>Envoyer un e-mail</libelle>
+        <module>openmail</module>
+        <page>sendEmail</page>
+        <action></action>
+        <logo>logo.png</logo>
+    </menu>
+    <menu principal="0" visibility="0">
+        <level>3</level>
+        <libelle>erreur de co opm</libelle>
+        <module>openmail</module>
+        <page>errorCo</page>
+        <action></action>
+        <logo></logo>
+    </menu>
+</menus>

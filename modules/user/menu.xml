@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="user">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Utilisateurs</libelle>
+		<module>user</module>
+		<page></page>
+		<action></action>
+		<logo>logoModuleParDefaut.png</logo>
+	</menu>
+	<!-- actions secondaires -->
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Ajouter un utilisateur</libelle>
+		<module>user</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Utilisateur</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Visualiser ma fiche</libelle>
+		<module>user</module>
+		<page>see</page>
+		<action>{myId}</action>
+		<logo>see.png</logo>
+		<short_libel>Ma fiche</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des utilisateurs</libelle>
+		<module>user</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Utilisateurs</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Ajouter une agence</libelle>
+		<module>user</module>
+		<page>addAgency</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Agence</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Liste des agences</libelle>
+		<module>user</module>
+		<page>listAgencies</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Agences</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>user</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+	<!-- action sans menu visible -->
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Modifier un utilisateur</libelle>
+		<module>user</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Supprimer un utilisateur</libelle>
+		<module>user</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Mise à jour de l'agence</libelle>
+		<module>user</module>
+		<page>updAgency</page>
+		<action></action>
+	</menu>
+</menus>

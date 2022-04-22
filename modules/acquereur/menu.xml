@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="acquereur">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Acquéreurs</libelle>
+		<module>acquereur</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un acquereur</libelle>
+		<module>acquereur</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Acquéreur</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des acquereurs</libelle>
+		<module>acquereur</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Acquéreurs</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Ajouter un titre d'acquereur</libelle>
+		<module>acquereur</module>
+		<page>addT</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Titre</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Liste des titres</libelle>
+		<module>acquereur</module>
+		<page>listT</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Titres</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>upd</libelle>
+		<module>acquereur</module>
+		<page>updateT</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>upd</libelle>
+		<module>acquereur</module>
+		<page>delT</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>acquereur</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>acquereur</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>see</libelle>
+		<module>acquereur</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter une situation</libelle>
+		<module>acquereur</module>
+		<page>addSit</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Situation</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des situations</libelle>
+		<module>acquereur</module>
+		<page>listSit</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Situations</short_libel>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd des situations</libelle>
+		<module>acquereur</module>
+		<page>updateSit</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>del des situations</libelle>
+		<module>acquereur</module>
+		<page>delSit</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir des situations</libelle>
+		<module>acquereur</module>
+		<page>seeSit</page>
+		<action></action>
+	</menu>
+
+
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Ajouter un acquereur associe</libelle>
+		<module>acquereur</module>
+		<page>addAcqAssocie</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>modifier un acquereur associe</libelle>
+		<module>acquereur</module>
+		<page>updateAcqAssos</page>
+		<action></action>
+	</menu>
+
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supprimer un acquereur associe</libelle>
+		<module>acquereur</module>
+		<page>deleteAcqAssos</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Voir un acquereur associe</libelle>
+		<module>acquereur</module>
+		<page>seeAcqAssos</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>acquereur</module>
+		<page>logs</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+
+</menus>

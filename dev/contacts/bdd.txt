@@ -1,0 +1,5 @@
+[User:|a,string|]
+(cestz)[TypeChampsContact:|libel,string|,|numberUsed,int|,|position,int|,*{champsContact}ChampsContact]
+(cestz)[ChampsContact:|libel,string|,|val,string|,|position,int|,|indestructible,bool,,false|,{typeChampsContact}TypeChampsContact,{contact}Contact]
+(cestz)[CategoryContact:|name,string|,*Contact]
+(cestz)[Contact:|dateCreation,datetime|,{user}User,*{champsContact}ChampsContact,*CategoryContact]

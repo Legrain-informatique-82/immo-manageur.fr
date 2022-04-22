@@ -1,0 +1,2 @@
+(cestz)[Sector:|name,string|,|numberUsed,int|]
+(cestz)[City:|name,string|,|zipCode,string/10|,|numberUsed,int|,{sector}Sector]

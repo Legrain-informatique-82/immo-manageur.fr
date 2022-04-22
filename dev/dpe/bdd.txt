@@ -1,0 +1,4 @@
+[Mandate:|id,int|]
+(cestz)[DpeConsoEner:|name,string|,|fromD,int|,|toD,int|,|position,int|]
+(cestz)[DpeEmissionGaz:|name,string|,|fromD,int|,|toD,int|,|position,int|]
+(cestz)[ValDpe:|consoEner,int|,|EmissionGaz,int|,{mandate}Mandate]

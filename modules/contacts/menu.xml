@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="contacts">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Carnet d'adresses</libelle>
+		<short_libel>Contacts</short_libel>
+		<module>contacts</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un contact</libelle>
+		<module>contacts</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Contact</short_libel>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Liste des contacts</libelle>
+		<module>contacts</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Contacts</short_libel>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>Modifier un contact</libelle>
+		<module>contacts</module>
+		<page>upd</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer un contact</libelle>
+		<module>contacts</module>
+		<page>del</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>see</libelle>
+		<module>contacts</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter une catégorie</libelle>
+		<module>contacts</module>
+		<page>addC</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Catégorie</short_libel>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Liste des catégories</libelle>
+		<module>contacts</module>
+		<page>listC</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Catégories</short_libel>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un type de champs</libelle>
+		<module>contacts</module>
+		<page>addTC</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Type</short_libel>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>3</level>
+		<libelle>Liste des types de champs</libelle>
+		<module>contacts</module>
+		<page>listTC</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Types</short_libel>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>upd tc</libelle>
+		<module>contacts</module>
+		<page>updTC</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>upd tc</libelle>
+		<module>contacts</module>
+		<page>updPosTC</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>upd c</libelle>
+		<module>contacts</module>
+		<page>updC</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>del c</libelle>
+		<module>contacts</module>
+		<page>delC</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="0">
+		<level>3</level>
+		<libelle>del tc</libelle>
+		<module>contacts</module>
+		<page>delTC</page>
+		<action></action>
+	</menu>
+	<menu principal="" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>contacts</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+</menus>

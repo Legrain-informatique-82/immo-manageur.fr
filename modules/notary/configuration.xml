@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>notary</name>
+	<modules_required>
+		<module>user</module>
+	</modules_required>
+	<position>12</position>
+</config>

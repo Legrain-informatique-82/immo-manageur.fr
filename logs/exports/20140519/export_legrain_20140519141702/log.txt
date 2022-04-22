@@ -1,0 +1,6 @@
+2014-05-19 14:17:02 - Archive créée 
+2014-05-19 14:17:02 - Taille de l'archive ......... 1024674
+2014-05-19 14:17:03 - Connexion ftp 
+2014-05-19 14:17:03 - Début du transfert 
+2014-05-19 14:17:03 - Echec du transfert ftp 
+2014-05-19 14:17:03 - fin de connexion ftp 

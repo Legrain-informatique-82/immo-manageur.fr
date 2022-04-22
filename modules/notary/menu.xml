@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="notary">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Notaires</libelle>
+		<module>notary</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un notaire</libelle>
+		<module>notary</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Notaire</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des notaires</libelle>
+		<module>notary</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Notaires</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>notary</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+	<!-- Menu invisible -->
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Modifier un notaire</libelle>
+		<module>notary</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer un notaire</libelle>
+		<module>notary</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Voir un notaire</libelle>
+		<module>notary</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	
+	
+	
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Ajouter un clerc</libelle>
+		<module>notary</module>
+		<page>addClerk</page>
+		<action></action>
+	</menu>
+		<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir un clerc</libelle>
+		<module>notary</module>
+		<page>seeClerk</page>
+		<action></action>
+	</menu>
+</menus>

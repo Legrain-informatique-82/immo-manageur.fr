@@ -1,0 +1,67 @@
+causes;nom;prenom;adresse;cp;ville;tel perso;tel pro; portable;autre;email;transaction;type;prix de; prix à;commercial;date visite;visite
+- ville du bien manquante;  ATTAS Philippe; Philippe; ; ; ; 06.88.02.77.45; ; ; ; phipitos64@live.fr;; MAISON;50000;190000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  AUDON ; ; ; ; ; 06.25.73.62.47; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  BALLIN Anthony; Anthony; ; ; ; 06.25.88.80.28; ; 05.63.67.82.25; ; florence.malvezin@club-internet.fr;; ;70000;90000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BAPTISTE Cédric; Cédric; ; ; ; 06.14.51.82.31; ; ; ; baptistecedric@hotmail.fr;; TERRAIN;40000;50000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BAUDE ; ; ; ; ; 06.34.14.67.88; ; ; ; ;; MAISON;115000;120000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BELLIOT Franck; Franck; ; ; ; 06.21.37.10.51; ; ; ; belliot.franck@wanadoo.fr;; MAISON;250000;300000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BELLIOT ; ; ; ; ; ; ; 06.74.33.34.69; ; antana.m@hotmail.fr;; MAISON;150000;180000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BOELIN ; ; ; ; ; 06.22.83.17.30; ; 06.76.60.31.15; ; ;; MAISON;30000;40000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BOUDEAU ; ; ; ; ; 05.81.11.20.46; ; 06.79.54.13.21; ; ;; MAISON;90000;120000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BRUGIDOU ; ; ; ; ; 06.61.46.86.44; ; ; ; docrofet@bbox.fr;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BRUNAT ; ; ; ; ; 02.41.60.15.40; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  BUHAGIAR ; ; ; ; ; 05.67.27.34.26; ; ; ; ;; MAISON;600;750; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  CATALANO ; ; ; ; ; 06.67.53.77.11; ; ; ; ;; MAISON;130000;150000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  CELEBRIN ; ; ; ; ; 05.63.64.07.70; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  CHAPUSOT Bernadette; Bernadette; ; ; ; 09.81.86.92.83; ; ; ; maya82@live.fr;; MAISON;90000;120000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  CHAVASTELON Damien; Damien; ; ; ; 06.64.21.90.97; ; ; ; damien.chavastelon@bbox.fr;; TERRAIN;  ;55000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  DANGAS ; ; ; ; ; ; ; 06.63.39.18.37; ; beatrice.pauze@hotmail.fr;; MAISON;160000;180000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  DARIO ; ; ; ; ; ; ; ; ; ;; MAISON;200000;240000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  DAVID Jean-Claude; Jean-Claude; ; ; ; 05.63.67.96.12; ; ; ; jcdavy@aliceadsl.fr;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  DAYMA Cyril; Cyril; ; ; ; 06.85.19.43.55; ; ; ; cyril.dayma@wanadoo.fr;; TERRAIN;40000;50000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  DUFOSSE Pascal; Pascal; ; ; ; 06.72.39.46.32; ; ; ; pascal.dufosse1@aliceadsl.fr;; MAISON;  ;240000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  ELLIOT ; ; ; ; ; ; ; ; ; ;; MAISON;170000;172000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  FENIOU Christian; Christian; ; ; ; ; ; 05.63.24.28.89; ; ;; MAISON;170000;200000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  FURLAN Patrick; Patrick; ; ; ; 06.37.40.98.80; ; ; ; furlan.patrick@free.fr;; MAISON;210000;240000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  GABON Chantal; Chantal; ; ; ; ; ; ; ; hoh0fpv2rc43ogm@jetable.org;; TERRAIN;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  GALAUP Céline; Céline; ; ; ; ; ; 06.83.67.58.98; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  GUERIN Thomas; Thomas; ; ; ; ; ; 06.03.00.73.95; ; t.guerin82@laposte.net;; TERRAIN;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LACAN ; ; ; ; ; 06.79.45.26.49; ; ; ; ;; MAISON;168000;170000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LARROQUE Aurélie; Aurélie; ; ; ; 06.36.83.87.57; ; ; ; aurelie.larroque@voila.fr;; MAISON;50000;80000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LAURENCE Blandine; Blandine; ; ; ; 09.51.87.33.35; ; ; ; blandine1978@hotmail.fr;; MAISON;130000;180000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LE LONG Yannick; Yannick; ; ; ; 06.49.68.06.62; ; ; ; luyama@free.fr;; MAISON;110000;140000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LENOBLE ; ; ; ; ; ; ; 06.15.88.51.68; ; Helene_wille@yahoo.fr;; MAISON;700;900; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  LEYRITZ ; ; ; ; ; 05.63.39.84.15; ; ; ; ;; MAISON;90000;100000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MALTER Christine; Christine; ; ; ; 06.37.39.06.54; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MAMELIN Béatrice; Béatrice; ; ; ; 06.71.82.46.26; ; ; ; ;; MAISON;100000;150000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MARTIN Marjorie; Marjorie; ; ; ; 06.58.28.84.92; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MARTY Thierry; Thierry; ; ; ; 06.19.94.27.32; ; ; ; thierrymarty3@gmail.com;; MAISON;80000;140000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MARTY Jessica; Jessica; ; ; ; 06.42.31.81.52; ; 06.19.26.25.94; ; jessicamarty2009@hotmail.fr;; MAISON;179000;180000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MASSOT Marie-Claude; Marie-Claude; ; ; ; 05.63.03.24.37; ; 06.64.66.71.86; ; ;; MAISON;50000;120000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MATHALY Caroline; Caroline; ; ; ; 05.63.21.42.52; ; 06.19.09.49.94; ; caro820@hotmail.fr;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MAZENC Marceline; Marceline; ; ; ; 06.87.98.17.95; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MBALLO ; ; ; ; ; 06.45.43.82.39; ; ; ; satouette@live.fr;; MAISON;190000;265000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MENCE ; ; ; ; ; 06.83.65.39.41; ; ; ; ;; MAISON;90000;120000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MOMAS Jean-Paul; Jean-Paul; ; ; ; 05.63.04.97.53; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  MOURTON Geoffrey; Geoffrey; Shepley Grange Shepley Road Barnt Green; ; ; 00.44.12.14.47.84.57; ; ; ; geoff.mourton@yahoo.co.uk;; MAISON;250000;300000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  PAUFERT ; ; ; ; ; ; ; ; ; ;; MAISON;90000;130000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  PEYRAT Yannick; Yannick; ; ; ; 05.63.24.06.05; ; ; ; yannick.peyrat@sfr.fr;; MAISON;80000;130000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  PITIACK Christine; Christine; ; ; ; ; ; 06.63.60.04.13; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  QUANTIN ; ; ; ; ; 05.63.28.23.96; ; ; ; ;; MAISON;750;850; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  RAMBALDINI ; ; ; ; ; 06.59.50.04.34; ; ; ; ;; HANGAR;100000;150000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  RATHMANN ; ; ; ; ; 06.84.14.65.35; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  REGIS ; ; ; ; ; 06.88.64.05.77; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  REYGADE Carine; Carine; ; ; ; 06.32.84.06.83; ; ; ; c.reygade@orange.fr;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  ROLLION ; ; ; ; ; 06.80.45.34.47; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  RUET Yves; Yves; ; ; ; 01.64.99.90.46; ; 07.67.13.73.39; ; yves.ruet@wanadoo.fr;; HANGAR;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  SACASS ; ; ; ; ; 05.63.67.43.11; ; ; ; ;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  SERRALTA ; ; ; ; ; ; ; 06.84.66.33.32; ; l.serralta@laposte.net;; MAISON;80000;130000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  STADELMANN ; ; COTE D'AZUR; ; ; 04.93.59.14.87; ; ; ; chr.stadelmann@free.fr;; MAISON;  ; ; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  STOLL ; ; ; ; ; 06.86.54.55.13; ; 06.49.48.14.96; ; ;; MAISON;500;650; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  UCONOTTI ; ; ; ; ; 05.63.04.33.98; ; ; ; ;; MAISON;160000;180000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  VERDIER Julien; Julien; ; ; ; 06.31.74.64.13; ; ; ; ;; MAISON;70000;140000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  VIALA ; ; ; ; ; 05.63.66.73.32; ; 06.03.88.43.54; ; c.viala82@orange.fr;; TERRAIN;40000;60000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  VIANI ; ; ; ; ; 06.38.19.79.66; ; 05.63.67.64.82; ; ;; TERRAIN;40000;50000; Marine RAFFY; ; ListeVisite
+- ville du bien manquante;  ZAMJAMHN ; ; ; ; ; 06.61.40.97.21; ; 05.63.27.23.53; ; ;; MAISON;170000;190000; Marine RAFFY; ; ListeVisite
+- type de bien manquant- Le champ utilisateur est vide- ville du bien manquante;;zzzz;zz;;;zz;zz;zz;zz;zz;;;;;;;
+- type de bien manquant- Le champ utilisateur est vide- ville du bien manquante;;;;;;;;;;;;;;;;;

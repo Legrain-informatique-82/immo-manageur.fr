@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="rapprochement">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Rapprochement</libelle>
+		<module>rapprochement</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un rapprochement</libelle>
+		<module>rapprochement</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Rapprochement</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des rapprochements</libelle>
+		<module>rapprochement</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Rapprochements</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>rapprochement</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Ajouter un rapprochement via acq</libelle>
+		<module>rapprochement</module>
+		<page>add_rapprochement_acq</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Ajouter un rapprochement via acq</libelle>
+		<module>rapprochement</module>
+		<page>add_rapprochement_chooseM</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Ajouter un rapprochement via mandate</libelle>
+		<module>rapprochement</module>
+		<page>add_rapprochement_man</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir fiche via acq</libelle>
+		<module>rapprochement</module>
+		<page>seeByAcq</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir fiche via mandat/terrain</libelle>
+		<module>rapprochement</module>
+		<page>seeByMan</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir fiche via acq</libelle>
+		<module>rapprochement</module>
+		<page>seeByChooseM</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>voir fiche via acq</libelle>
+		<module>rapprochement</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supp</libelle>
+		<module>rapprochement</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supp</libelle>
+		<module>rapprochement</module>
+		<page>deleteL</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supp</libelle>
+		<module>rapprochement</module>
+		<page>deleteAcq</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supp</libelle>
+		<module>rapprochement</module>
+		<page>deleteMan</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>supp</libelle>
+		<module>rapprochement</module>
+		<page>deleteChooseM</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>rapprochement</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>rapprochement</module>
+		<page>updateMan</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>rapprochement</module>
+		<page>updateChooseM</page>
+		<action></action>
+	</menu>
+
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>rapprochement</module>
+		<page>updateL</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>upd</libelle>
+		<module>rapprochement</module>
+		<page>updateAcq</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>rapp choix mandat</libelle>
+		<module>rapprochement</module>
+		<page>chooseMandate</page>
+		<action></action>
+	</menu>
+</menus>

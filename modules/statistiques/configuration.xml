@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>statistique</name>
+	<modules_required>
+		<module>mandat</module>
+		<module>terrain</module>
+		<module>acquereur</module>
+		<module>seller</module>
+		<module>rapprochement</module>
+		<module>mandate_features</module>
+	</modules_required>
+	<position>14</position>
+</config>

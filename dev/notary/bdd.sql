@@ -1,0 +1,16 @@
+CREATE TABLE Notary (
+	idNotary    INT AUTO_INCREMENT NOT NULL,
+	name        VARCHAR(250) NOT NULL,
+	fistname    VARCHAR(250) NOT NULL,
+	address     VARCHAR(250) NOT NULL,
+	city        VARCHAR(250) NOT NULL,
+	zipCode     VARCHAR(250) NOT NULL,
+	phone       VARCHAR(250) NOT NULL,
+	mobilPhone  VARCHAR(250) NOT NULL,
+	jobPhone    VARCHAR(250) NOT NULL,
+	fax         VARCHAR(250) NOT NULL,
+	email       VARCHAR(250) NOT NULL,
+	comments    TEXT(500) NOT NULL,
+	numberUsed  INT NOT NULL,
+	PRIMARY KEY (idNotary))
+ENGINE = MYISAM CHARACTER SET UTF8;

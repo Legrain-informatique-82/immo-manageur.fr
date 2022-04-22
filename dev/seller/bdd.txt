@@ -1,0 +1,34 @@
+[City:|name,string|]
+[User:|name,string|]
+(cestz)[SellerTitle:|libel,string/20|]
+
+(cestz)[Seller:|name,string/30|,|firstname,string/30|,|address,string/50|,|phone,string/15|,|mobilPhone,string/15|,|workPhone,string/15|,|fax,string/15|,|email,string/255|,|comments,string/200|,|asset,bool,,true|,|numberUsed,int|,{city}City,{sellerTitle}SellerTitle,{user}User]
+
+
+
+CREATE TABLE SellerTitle (
+	idSellerTitle              INT AUTO_INCREMENT NOT NULL,
+	libel                      VARCHAR(20) NOT NULL,
+	PRIMARY KEY (idSellerTitle))
+ENGINE = MYISAM CHARACTER SET UTF8;
+
+CREATE TABLE Seller (
+	idSeller                   INT AUTO_INCREMENT NOT NULL,
+	name                       VARCHAR(30) NOT NULL,
+	firstname                  VARCHAR(30) NOT NULL,
+	address                    VARCHAR(50) NOT NULL,
+	phone                      VARCHAR(15) NOT NULL,
+	mobilPhone                 VARCHAR(15) NOT NULL,
+	workPhone                  VARCHAR(15) NOT NULL,
+	fax                        VARCHAR(15) NOT NULL,
+	email                      VARCHAR(255) NOT NULL,
+	comments                   VARCHAR(200) NOT NULL,
+	asset                      TINYINT(1) DEFAULT TRUE NOT NULL,
+	city_idCity                INT NOT NULL,
+	sellerTitle_idSellerTitle  INT NOT NULL,
+	user_idUser                INT NOT NULL,
+	PRIMARY KEY (idSeller),
+	FOREIGN KEY (city_idCity) REFERENCES City (idCity),
+	FOREIGN KEY (sellerTitle_idSellerTitle) REFERENCES SellerTitle (idSellerTitle),
+	FOREIGN KEY (user_idUser) REFERENCES User (idUser))
+ENGINE = MYISAM CHARACTER SET UTF8;

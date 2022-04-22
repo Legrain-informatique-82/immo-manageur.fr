@@ -1,0 +1,2 @@
+[TransactionType:|name,string|,|exportCode,string|]
+[mandateType:|name,string|,|exportCode,string|]

@@ -1,0 +1,8 @@
+2011-12-14 12:51:24 - Archive créée 
+2011-12-14 12:51:24 - Taille de l'archive ......... 1062719
+2011-12-14 12:51:28 - Connexion ftp 
+2011-12-14 12:51:28 - Début du transfert 
+2011-12-14 12:51:40 - Fin du transfert ftp 
+2011-12-14 12:51:40 - Taille des éléments présents sur le ftp 
+2011-12-14 12:51:40 - legrain.zip ..... 1062719
+2011-12-14 12:51:40 - fin de connexion ftp 

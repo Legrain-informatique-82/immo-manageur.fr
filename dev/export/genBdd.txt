@@ -1,0 +1,4 @@
+[Mandate:|test,int|]
+(cestz)[Passerelle:|name,string|,|typeExport,string|,|param,string|]
+(cestz)[LiasonPasserelleMandat:{passerelle}Passerelle,{mandate}Mandate]
+(cestz)[LogTransfert:{passerelle}Passerelle,{mandate}Mandate,|dateExport,datetime|]

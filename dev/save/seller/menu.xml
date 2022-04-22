@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="seller">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Vendeurs</libelle>
+		<module>seller</module>
+		<page></page>
+		<action></action>
+	</menu>
+	<!-- actions secondaires -->
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Ajouter un titre de vendeur</libelle>
+		<module>seller</module>
+		<page>add</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Liste des titres</libelle>
+		<module>seller</module>
+		<page>list</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajouter un vendeur</libelle>
+		<module>seller</module>
+		<page>adds</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des vendeurs</libelle>
+		<module>seller</module>
+		<page>lists</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>seller</module>
+		<page>log</page>
+		<action></action>
+	</menu>
+	<!-- actions invisible -->
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Mise à jour du titre</libelle>
+		<module>seller</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Suppression du titre</libelle>
+		<module>seller</module>
+		<page>delete</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Mise à jour du vendeur</libelle>
+		<module>seller</module>
+		<page>updates</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Suppression du vendeur</libelle>
+		<module>seller</module>
+		<page>deletes</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Voir la fiche</libelle>
+		<module>seller</module>
+		<page>sees</page>
+		<action></action>
+	</menu>
+</menus>

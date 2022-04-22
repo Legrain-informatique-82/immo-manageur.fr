@@ -1,0 +1,12 @@
+(cestz)[Documents:|sizetext,string|,|corps,string/9999|,|other,string|]
+
+
+CREATE TABLE Documents (
+	idDocument  INT AUTO_INCREMENT NOT NULL,
+	sizetext    VARCHAR(250) NOT NULL,
+	corps       TEXT(9999) NOT NULL,
+	other       VARCHAR(250) NOT NULL,
+	PRIMARY KEY (idDocument))
+ENGINE = MYISAM CHARACTER SET UTF8;
+
+

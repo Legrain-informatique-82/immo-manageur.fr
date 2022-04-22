@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>rapprochement</name>
+	<modules_required>
+		<module>biens</module>
+		<module>acquereur</module>
+	</modules_required>
+	<position>5</position>
+</config>

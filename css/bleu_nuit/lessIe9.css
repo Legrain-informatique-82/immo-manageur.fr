@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+
+#view_login,
+input[type="submit"],.bulle
+ {
+	
+	behavior: url('../pie/PIE.htc'); 
+	
+}
+/*
+input[type="submit"]{
+	border:none;
+}
+*/
+#menuPrincipal li a {
+	padding: 10% 1px 10% 1px;
+	font-size: 0.9em;
+}
+
+input[type="text"],input[type="password"] { /*width: */
+	
+}

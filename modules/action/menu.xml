@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="action">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>3</level>
+		<libelle>Tâches</libelle>
+		<module>action</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- Menu secondaire -->
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajout d'un libellé</libelle>
+		<module>action</module>
+		<page>add_libel</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Libellé</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Liste des libellés</libelle>
+		<module>action</module>
+		<page>list_libel</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Libellés</short_libel>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Modifier le libellé</libelle>
+		<module>action</module>
+		<page>upd_libel</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Supprimer le libellé</libelle>
+		<module>action</module>
+		<page>del_libel</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Ajout d'une tâche</libelle>
+		<module>action</module>
+		<page>add</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Tâche</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des tâches non traitées</libelle>
+		<module>action</module>
+		<page>list</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Tâches</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>3</level>
+		<libelle>Liste des tâches traitées</libelle>
+		<module>action</module>
+		<page>list_old</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Tâches traitées</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>voir les logs pour ce module</libelle>
+		<module>action</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Voir</libelle>
+		<module>action</module>
+		<page>see</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Modifier</libelle>
+		<module>action</module>
+		<page>update</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer</libelle>
+		<module>action</module>
+		<page>del</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>3</level>
+		<libelle>Supprimer</libelle>
+		<module>action</module>
+		<page>delO</page>
+		<action></action>
+	</menu>
+</menus>

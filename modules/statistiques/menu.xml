@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="terrain">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="0">
+		<level>1</level>
+		<libelle>Statistique</libelle>
+		<module>statistique</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	
+</menus>

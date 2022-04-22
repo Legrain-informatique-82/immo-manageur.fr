@@ -1,0 +1,2 @@
+(cestz)[Notary:|name,string|,|firstname,string|,|address,string|,|city,string|,|zipCode,string|,|phone,string|,|mobilPhone,string|,|jobPhone,string|,|fax,string|,|email,string|,|comments,string/500|,|numberUsed,int|]
+(cestz)[NotaryClerk:|name,string|,|firstname,string|,|address,string|,|city,string|,|zipCode,string|,|phone,string|,|mobilPhone,string|,|jobPhone,string|,|fax,string|,|email,string|,|comments,string/500|,|numberUsed,int|,{notary}Notary]

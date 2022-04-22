@@ -1,0 +1,8 @@
+causes;nom;prenom;adresse;cp;ville;tel perso;tel pro; portable;autre;email;transaction;type;prix de; prix à;commercial;date visite;visite
+- ville du bien manquante;  ATTOU; ; ; ; ; 03.60.35.84.95; ; 06.67.27.44.03; ; ;; MAISON;400;600; Alexandre LAFON; ; ListeVisite
+- ville du bien manquante;  CAMARA didier; didier; ; ; ; ; ; 06.16.70.14.55; ; ;; IMMEUBLE; ; ; Alexandre LAFON; ; ListeVisite
+- ville du bien manquante;  MARIE-MAGLI philippe; philippe; ; ; ; 06.64.91.16.17; ; ; ; marie-magli54philippe@orange.fr;; MAISON;45000;125000; Alexandre LAFON; ; ListeVisite
+- type de bien manquant- ville du bien manquante;  SOULIGNAC; ; ; ; ; 05.63.65.81.25; ; ; ; ;; ; ; ; Alexandre LAFON; ; ListeVisite
+- ville du bien manquante;  TOURTEAU; ; ; ; ; ; ; 06.59.31.39.99; ; ;; PROPRIETE; ; ; Alexandre LAFON; ; ListeVisite
+- ville du bien manquante;  VERGNES frederic; frederic; ; ; ; ; ; 06.20.17.03.76; ; ;; MAISON;45000;95000; Alexandre LAFON; ; ListeVisite
+- type de bien manquant- Le champ utilisateur est vide- ville du bien manquante;;;;;;;;;;;;;;;;;

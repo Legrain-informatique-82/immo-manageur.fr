@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="sector">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="0">
+		<level>2</level>
+		<libelle>Secteurs/villes</libelle>
+		<module>sector</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+	<!-- actions secondaires -->
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Ajouter un secteur</libelle>
+		<module>sector</module>
+		<page>adds</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Secteur</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>liste des secteurs</libelle>
+		<module>sector</module>
+		<page>lists</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Secteurs</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>Ajouter une ville</libelle>
+		<module>sector</module>
+		<page>addv</page>
+		<action></action>
+		<logo>add.png</logo>
+		<short_libel>Ville</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>2</level>
+		<libelle>liste des villes</libelle>
+		<module>sector</module>
+		<page>listv</page>
+		<action></action>
+		<logo>list.png</logo>
+		<short_libel>Villes</short_libel>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Voir les logs pour ce module</libelle>
+		<module>sector</module>
+		<page>log</page>
+		<action></action>
+		<logo>log.png</logo>
+		<short_libel>Logs</short_libel>
+	</menu>
+	<!-- action sans menu visible -->
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Modifier un secteur</libelle>
+		<module>sector</module>
+		<page>updates</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Supprimer un secteur</libelle>
+		<module>sector</module>
+		<page>deletes</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Modifier une ville</libelle>
+		<module>sector</module>
+		<page>updatev</page>
+		<action></action>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>2</level>
+		<libelle>Supprimer une ville</libelle>
+		<module>sector</module>
+		<page>deletev</page>
+		<action></action>
+	</menu>
+</menus>

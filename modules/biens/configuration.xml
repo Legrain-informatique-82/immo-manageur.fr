@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<name>biens</name>
+	<modules_required>
+		<module>mandate_features</module>
+		<module>notary</module>
+		<module>mandate_type</module>
+		<module>seller</module>
+		<module>transaction_type</module>
+		<module>rapprochement</module>
+	</modules_required>
+</config>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus nameModule="export_site">
+	<!-- Menu principal -->
+	<menu principal="1" visibility="1">
+		<level>1</level>
+		<libelle>Mon site vitrine</libelle>
+		<module>export_site</module>
+		<page></page>
+		<action></action>
+		<logo>logo.png</logo>
+	</menu>
+
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Généralités</libelle>
+		<module>export_site</module>
+		<page>upd</page>
+		<action></action>
+		<logo>upd.png</logo>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Fourchettes</libelle>
+		<module>export_site</module>
+		<page>fourchettes</page>
+		<action></action>
+		<logo>upd.png</logo>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Messages</libelle>
+		<module>export_site</module>
+		<page>messages</page>
+		<action></action>
+		<logo>messages.png</logo>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Page d'accueil</libelle>
+		<module>export_site</module>
+		<page>accueil</page>
+		<action></action>
+		<logo>accueil.png</logo>
+	</menu>
+	
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Qui sommes nous ?</libelle>
+		<module>export_site</module>
+		<page>cms</page>
+		<action>1</action>
+		<logo>qsn.png</logo>
+	</menu>
+	
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Infos légales</libelle>
+		<module>export_site</module>
+		<page>cms</page>
+		<action>2</action>
+		<logo>il.png</logo>
+	</menu>
+    <menu principal="0" visibility="1">
+        <level>1</level>
+        <libelle>Gestion des comptes clients</libelle>
+        <module>export_site</module>
+        <page>cptclients</page>
+        <action>2</action>
+        <logo>il.png</logo>
+    </menu>
+	
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>ajouter</libelle>
+		<module>export_site</module>
+		<page>addFp</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Modifier</libelle>
+		<module>export_site</module>
+		<page>updFp</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Supprimer</libelle>
+		<module>export_site</module>
+		<page>delFp</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>ajouter</libelle>
+		<module>export_site</module>
+		<page>addFt</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Modifier</libelle>
+		<module>export_site</module>
+		<page>updFt</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	<menu principal="0" visibility="0">
+		<level>1</level>
+		<libelle>Supprimer</libelle>
+		<module>export_site</module>
+		<page>delFt</page>
+		<action></action>
+		<logo></logo>
+	</menu>
+	<menu principal="0" visibility="1">
+		<level>1</level>
+		<libelle>Logs</libelle>
+		<module>export_site</module>
+		<page>logs</page>
+		<action></action>
+		<logo>logs.png</logo>
+	</menu>
+
+</menus>
